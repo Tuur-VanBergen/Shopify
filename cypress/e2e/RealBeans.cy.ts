@@ -129,6 +129,7 @@ describe("RealBeans", () => {
 
   context('About page', () => {
     it("History paragraph", () => {
+        
       cy.get("#HeaderMenu-about-us").contains("About Us").click()
       cy.location("pathname").should("equal", "/pages/about-me")
       cy.get('body').contains("From a small Antwerp grocery to a European coffee staple, RealBeans honors tradition while innovating for the future. Our beans are roasted in-house, shipped from Antwerp or Stockholm, and loved across the continent.")
