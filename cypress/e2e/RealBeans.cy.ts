@@ -6,6 +6,7 @@ describe("RealBeans", () => {
     cy.get("#password").type("rowohm")
     cy.get("button").contains("Enter").click()
   })
+  
 
   context("Catalog Page", () => {
     beforeEach(() => {    
