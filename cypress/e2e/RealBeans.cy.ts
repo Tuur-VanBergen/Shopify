@@ -1,3 +1,5 @@
+export {}
+
 describe("RealBeans", () => {
   beforeEach(() => {
     cy.visit("https://r1009675-realbeans.myshopify.com/")
